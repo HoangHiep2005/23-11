@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.khung {
+    display: inline-block;
+    text-align: left; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+#C, #F {
+    padding: 20px;
+}
+span{
+    text-align: right;
+}
+button {
+    margin:20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #0f39d1;
+    color: rgb(236, 13, 13);
+    border-radius: 145px;
+}

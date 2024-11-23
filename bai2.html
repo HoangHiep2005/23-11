@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính diện tích hình học</title>
+    <link rel="stylesheet" href="./css/bai2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tính diện tích hình học</h1>
+        <div class="form">
+            <h2>Hình chữ nhật</h2>
+            <label for="length">Chiều dài:</label>
+            <input type="number" id="length" placeholder="Nhập chiều dài">
+            <label for="width">Chiều rộng:</label>
+            <input type="number" id="width" placeholder="Nhập chiều rộng">
+            <button onclick="calculateRectangle()">Tính diện tích</button>
+            <p id="rectangleResult"></p>
+        </div>
+
+        <div class="form">
+            <h2>Hình tam giác</h2>
+            <label for="base">Cạnh đáy:</label>
+            <input type="number" id="base" placeholder="Nhập cạnh đáy">
+            <label for="height">Chiều cao:</label>
+            <input type="number" id="height" placeholder="Nhập chiều cao">
+            <button onclick="calculateTriangle()">Tính diện tích</button>
+            <p id="triangleResult"></p>
+        </div>
+
+        <div class="form">
+            <h2>Hình vuông</h2>
+            <label for="side">Cạnh:</label>
+            <input type="number" id="side" placeholder="Nhập cạnh">
+            <button onclick="calculateSquare()">Tính diện tích</button>
+            <p id="squareResult"></p>
+        </div>
+    </div>
+    <script src="./js/bai2.js"></script>
+</body>
+</html>
