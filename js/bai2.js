@@ -1,22 +1,22 @@
 function calculateRectangle() {
-    const length = document.getElementById('length').value;
-    const width = document.getElementById('width').value;
-    const area = length * width;
+    const dai = document.getElementById('dai').value;
+    const rong = document.getElementById('rong').value;
+    const area = dai * rong;
     document.getElementById('rectangleResult').textContent = 
         `Diện tích hình chữ nhật: ${area}`;
 }
 
 function calculateTriangle() {
-    const base = document.getElementById('base').value;
-    const height = document.getElementById('height').value;
-    const area = (base * height) / 2;
+    const canhday = document.getElementById('canhday').value;
+    const cao = document.getElementById('cao').value;
+    const area = (canhday * cao) / 2;
     document.getElementById('triangleResult').textContent = 
         `Diện tích hình tam giác: ${area}`;
 }
 
 function calculateSquare() {
-    const side = document.getElementById('side').value;
-    const area = side * side;
+    const canh = document.getElementById( 'canh').value;
+    const area = canh * canh;
     document.getElementById('squareResult').textContent = 
         `Diện tích hình vuông: ${area}`;
 }
